@@ -32,14 +32,15 @@ const StudentDashboard = () => {
 
   const recommendedCourses = [
     {
-      id: 3,
+      id: "3",
       title: "Auto Mechanics Basics",
       teacher: "Rustam Alimov",
       price: 180000,
       rating: 4.9,
       students: 450,
-      image: courseAuto,
-      badge: "New",
+      thumbnail: courseAuto,
+      duration: "8 weeks",
+      isNew: true,
     },
   ];
 
