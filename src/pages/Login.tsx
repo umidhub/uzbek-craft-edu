@@ -38,7 +38,7 @@ export default function Login() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
+      <Header showAuth={true} />
       
       <main className="flex-1 flex items-center justify-center py-12 px-6 bg-muted/30">
         <Card className="w-full max-w-md p-8 space-y-6">

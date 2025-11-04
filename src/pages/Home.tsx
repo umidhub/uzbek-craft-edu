@@ -87,7 +87,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
+      <Header showAuth={true} />
 
       <main className="flex-1">
         {/* Hero Section */}
